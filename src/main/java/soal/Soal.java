@@ -31,4 +31,11 @@ public class Soal {
     public int perkalian(int bilA, int bilB){
         return bilA * bilB;
     }
+    
+    public void tampil(){
+        int hasil = perkalian(1,2);
+        System.out.println("Hasilnya adalah "+hasil);
+    }
+    
+    
 }
