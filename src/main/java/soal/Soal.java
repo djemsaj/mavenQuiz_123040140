@@ -20,13 +20,7 @@ public class Soal {
         return hasil;
     }
     
-    public int faktorial(int bil){
-        int hasil = 1;
-        for(int i = 1; i <= bil; i++){
-            hasil += 1;
-        }
-        return hasil;
-    }
+    
     
     public int perkalian(int bilA, int bilB){
         return bilA * bilB;
